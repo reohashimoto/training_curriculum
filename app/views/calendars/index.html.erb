@@ -12,7 +12,15 @@
     <% @week_days.each do |day| %>
       <div class='item'>
         <div class='date'>
+<<<<<<< HEAD
+<<<<<<< HEAD
           <%= day[:month] %>/<%= day[:date] %>/<%= day[:wday] %>
+=======
+          <% day[:month] %>/<% day[:date] %>
+>>>>>>> parent of fea4d19... issue5
+=======
+          <% day[:month] %>/<% day[:date] %>
+>>>>>>> parent of fea4d19... issue5
         </div>
         <ul class='content'>
         <% if day[:plans].length != 0 %>
